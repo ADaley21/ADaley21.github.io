@@ -132,17 +132,16 @@ body {
 .card__image {
   background-position: center center;
   background-repeat: no-repeat;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
   filter: contrast(70%);
   overflow: hidden;
-  position: relative;
+  position:fixed;
   display: block;
+  flex-direction: row;
 
 }
 
 .card__title {
-  color: #667e6d;
+  color:black;
   font-size: 1.25rem;
   font-weight: 100;
   letter-spacing: 2px;
@@ -175,7 +174,7 @@ body {
 .footer li{
     padding: 10px;
     color:black;
-    background-color:#667e6d
+    background-color:#667e6d;
     display:grid;
     grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
 
