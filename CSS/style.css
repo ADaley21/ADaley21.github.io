@@ -113,6 +113,11 @@ body {
   padding: 1rem;
 }
 
+.flex-container {
+    display:grid;
+    flex-direction:column;
+}
+
 .card {
   background-color: white;
   border-radius: 0.25rem;
@@ -120,6 +125,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  justify-content: space-between;
 }
 
 .card__content {
